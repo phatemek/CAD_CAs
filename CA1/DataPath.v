@@ -1,0 +1,27 @@
+module DataPath(clk, rst, ix1, ix2, ix3, ix4, ieps, wen, wene, sel, zer, out);
+input clk, rst, wen, wene, sel;
+input [31:0] ix1, ix2, ix3, ix4, ieps;
+output zer;
+output [31:0] out;
+wire [31:0] xp1, xp2, xp3, xp4, w1, w2, w3, w4, x1, x2, x3, x4, eps;
+wire zx1, zx2, zx3, zx4;
+assign w1 = (sel?xp1:ix1);
+assign w2 = (sel?xp2:ix2);
+assign w3 = (sel?xp3:ix3);
+assign w4 = (sel?xp4:ix4);
+x_reg my_x1(w1, wen, clk, rst, x1);
+x_reg my_x2(w2, wen, clk, rst, x2);
+x_reg my_x3(w2, wen, clk, rst, x3);
+x_reg my_x4(w2, wen, clk, rst, x4);
+x_reg my_eps({~ieps[31], ieps[30:0]}, wene, clk, rst, eps);
+PU PU1(x1, 1, x2, eps, x3, eps, x4, eps, clk, rst, xp1);
+PU PU2(x1, eps, x2, 1, x3, eps, x4, eps, clk, rst, xp2);
+PU PU3(x1, eps, x2, eps, x3, 1, x4, eps, clk, rst, xp3);
+PU PU4(x1, eps, x2, eps, x3, eps, x4, 1, clk, rst, xp4);
+assign zx1 = ((x1 == 32'b0)?1:0);
+assign zx2 = ((x2 == 32'b0)?1:0);
+assign zx3 = ((x3 == 32'b0)?1:0);
+assign zx4 = ((x4 == 32'b0)?1:0);
+assign out = (x1 | x2 | x3 | x4);
+assign zer = ((zx1 & zx2) | (zx1 & zx3) | (zx1 & zx4) | (zx2 & zx3) | (zx2 & zx3) | (zx3 & zx4));
+endmodule

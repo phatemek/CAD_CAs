@@ -1,0 +1,64 @@
+C:/intelFPGA_lite/20.1/maxfinder.v {1 {vlog -work work -stats=none C:/intelFPGA_lite/20.1/maxfinder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module maxfinder
+
+Top level modules:
+	maxfinder
+
+} {} {}} C:/intelFPGA_lite/20.1/mux.v {1 {vlog -work work -stats=none C:/intelFPGA_lite/20.1/mux.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_2_to_1
+
+Top level modules:
+	mux_2_to_1
+
+} {} {}} C:/intelFPGA_lite/20.1/addr.v {1 {vlog -work work -stats=none C:/intelFPGA_lite/20.1/addr.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FloatingPointAdder
+
+Top level modules:
+	FloatingPointAdder
+
+} {} {}} C:/intelFPGA_lite/20.1/multiplier.v {1 {vlog -work work -stats=none C:/intelFPGA_lite/20.1/multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FloatingPointMultiplier
+
+Top level modules:
+	FloatingPointMultiplier
+
+} {} {}} C:/intelFPGA_lite/20.1/multTB.v {1 {vlog -work work -stats=none C:/intelFPGA_lite/20.1/multTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multTB
+
+Top level modules:
+	multTB
+
+} {} {}} C:/intelFPGA_lite/20.1/testbench.v {1 {vlog -work work -stats=none C:/intelFPGA_lite/20.1/testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}} C:/intelFPGA_lite/20.1/controller.v {1 {vlog -work work -stats=none C:/intelFPGA_lite/20.1/controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/intelFPGA_lite/20.1/x_reg.v {1 {vlog -work work -stats=none C:/intelFPGA_lite/20.1/x_reg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module x_reg
+
+Top level modules:
+	x_reg
+
+} {} {}} C:/intelFPGA_lite/20.1/PU.v {1 {vlog -work work -stats=none C:/intelFPGA_lite/20.1/PU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PU
+
+Top level modules:
+	PU
+
+} {} {}}

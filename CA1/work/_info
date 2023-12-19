@@ -1,0 +1,270 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/20.1
+vcontroller
+!s110 1700213700
+!i10b 1
+!s100 Pa@lJ9@d?TKOm<`XOPZ]=1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJOa_PUG]W_Z^M6eIAFN8U3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1700213696
+8C:/intelFPGA_lite/20.1/controller.v
+FC:/intelFPGA_lite/20.1/controller.v
+!i122 1
+L0 7 29
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1700213700.000000
+!s107 C:/intelFPGA_lite/20.1/controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/20.1/controller.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vDataPath
+!s110 1700240865
+!i10b 1
+!s100 SjVicdIVlmGj?gRQMWCV53
+R1
+IJ0biABc^YDdZCJ8V5olQT3
+R2
+R0
+w1700240863
+8C:/intelFPGA_lite/20.1/DataPath.v
+FC:/intelFPGA_lite/20.1/DataPath.v
+!i122 61
+L0 1 27
+R3
+r1
+!s85 0
+31
+!s108 1700240864.000000
+!s107 C:/intelFPGA_lite/20.1/DataPath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/20.1/DataPath.v|
+!i113 1
+R4
+R5
+n@data@path
+vFloatingPointAdder
+!s110 1700239328
+!i10b 1
+!s100 VU3CNZnNFSeJTAXN5b4mg0
+R1
+I98bfLVzfzkn]K=F3SgZU10
+R2
+R0
+w1700239326
+8C:/intelFPGA_lite/20.1/addr.v
+FC:/intelFPGA_lite/20.1/addr.v
+!i122 54
+L0 1 75
+R3
+r1
+!s85 0
+31
+!s108 1700239328.000000
+!s107 C:/intelFPGA_lite/20.1/addr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/20.1/addr.v|
+!i113 1
+R4
+R5
+n@floating@point@adder
+vFloatingPointMultiplier
+!s110 1700238177
+!i10b 1
+!s100 A565gPmjO3K@H=^H67PZV1
+R1
+I^NF27@4Z@diSZ<5SiBBFV3
+R2
+R0
+w1700238174
+Z6 8C:/intelFPGA_lite/20.1/multiplier.v
+Z7 FC:/intelFPGA_lite/20.1/multiplier.v
+!i122 47
+L0 1 31
+R3
+r1
+!s85 0
+31
+!s108 1700238176.000000
+Z8 !s107 C:/intelFPGA_lite/20.1/multiplier.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/20.1/multiplier.v|
+!i113 1
+R4
+R5
+n@floating@point@multiplier
+vmaxfinder
+!s110 1700239162
+!i10b 1
+!s100 G`bhPWRiQiFVQdbSon]Uf0
+R1
+Io:79IECfIRAl^EGf2ZKTE0
+R2
+R0
+w1700239160
+8C:/intelFPGA_lite/20.1/maxfinder.v
+FC:/intelFPGA_lite/20.1/maxfinder.v
+!i122 53
+Z10 L0 1 9
+R3
+r1
+!s85 0
+31
+!s108 1700239162.000000
+!s107 C:/intelFPGA_lite/20.1/maxfinder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/20.1/maxfinder.v|
+!i113 1
+R4
+R5
+vmultiplier
+!s110 1700238131
+!i10b 1
+!s100 ocMZYOFNKH3L7dNaDWWof1
+R1
+IfdCgCbKZQOKOURdkmBH^j1
+R2
+R0
+w1700238129
+R6
+R7
+!i122 45
+L0 1 32
+R3
+r1
+!s85 0
+31
+!s108 1700238131.000000
+R8
+R9
+!i113 1
+R4
+R5
+vmultTB
+!s110 1700237537
+!i10b 1
+!s100 MA7Sj04:c4>`NcnJ^g@Yo3
+R1
+IiMigY@=9D26@ZeH3<zYaP0
+R2
+R0
+w1700237535
+8C:/intelFPGA_lite/20.1/multTB.v
+FC:/intelFPGA_lite/20.1/multTB.v
+!i122 44
+R10
+R3
+r1
+!s85 0
+31
+!s108 1700237537.000000
+!s107 C:/intelFPGA_lite/20.1/multTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/20.1/multTB.v|
+!i113 1
+R4
+R5
+nmult@t@b
+vmux_2_to_1
+!s110 1700238521
+!i10b 1
+!s100 SBdF:I?<6>[f>maNiB8<J1
+R1
+I6QkO>CZ?jVPVTU6^O;YF`1
+R2
+R0
+w1700238519
+8C:/intelFPGA_lite/20.1/mux.v
+FC:/intelFPGA_lite/20.1/mux.v
+!i122 51
+L0 1 7
+R3
+r1
+!s85 0
+31
+!s108 1700238520.000000
+!s107 C:/intelFPGA_lite/20.1/mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/20.1/mux.v|
+!i113 1
+R4
+R5
+vPU
+!s110 1700239772
+!i10b 1
+!s100 G5z9UDG7djMKoLL`E7edT0
+R1
+IUQ7g07^IQH_d8Y:MijXB71
+R2
+R0
+w1700239769
+8C:/intelFPGA_lite/20.1/PU.v
+FC:/intelFPGA_lite/20.1/PU.v
+!i122 57
+L0 1 19
+R3
+r1
+!s85 0
+31
+!s108 1700239771.000000
+!s107 C:/intelFPGA_lite/20.1/PU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/20.1/PU.v|
+!i113 1
+R4
+R5
+n@p@u
+vTB
+!s110 1700240396
+!i10b 1
+!s100 T8PmaL^8Ba`ckYP3=Le@80
+R1
+I_7?f8mJb0172eY_kL^I0G0
+R2
+R0
+w1700240394
+8C:/intelFPGA_lite/20.1/testbench.v
+FC:/intelFPGA_lite/20.1/testbench.v
+!i122 59
+L0 1 18
+R3
+r1
+!s85 0
+31
+!s108 1700240396.000000
+!s107 C:/intelFPGA_lite/20.1/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/20.1/testbench.v|
+!i113 1
+R4
+R5
+n@t@b
+vx_reg
+!s110 1700240172
+!i10b 1
+!s100 _3`M7a_NaRW>Nj0c>Xjez3
+R1
+IHA:IXigTl:RDRcXlKQS_;0
+R2
+R0
+w1700239978
+8C:/intelFPGA_lite/20.1/x_reg.v
+FC:/intelFPGA_lite/20.1/x_reg.v
+!i122 58
+R10
+R3
+r1
+!s85 0
+31
+!s108 1700240172.000000
+!s107 C:/intelFPGA_lite/20.1/x_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/20.1/x_reg.v|
+!i113 1
+R4
+R5

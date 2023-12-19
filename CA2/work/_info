@@ -1,0 +1,107 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vC1
+!s110 1702987003
+!i10b 1
+!s100 =O0CmHk]dAzj5P`gIL:kn3
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IkQ[TKDWLJZ[M6coekLohD1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dY:/University/T5/CAD/CA2
+w1702987000
+8Y:/University/T5/CAD/CA2/C1.v
+FY:/University/T5/CAD/CA2/C1.v
+!i122 0
+L0 1 9
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1702987003.000000
+!s107 Y:/University/T5/CAD/CA2/C1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Y:/University/T5/CAD/CA2/C1.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@c1
+vC2
+!s110 1702987287
+!i10b 1
+!s100 Ka^G1c]cmghKBNoW]_I212
+R0
+IHnG1RRiS52a^ZgK:7BkQY0
+R1
+R2
+w1702987285
+8Y:/University/T5/CAD/CA2/C2.v
+FY:/University/T5/CAD/CA2/C2.v
+!i122 1
+L0 1 10
+R3
+r1
+!s85 0
+31
+!s108 1702987286.000000
+!s107 Y:/University/T5/CAD/CA2/C2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Y:/University/T5/CAD/CA2/C2.v|
+!i113 1
+R4
+R5
+n@c2
+vS1
+!s110 1702987943
+!i10b 1
+!s100 PNo8Ib^7g4XF[L_P@H<U<0
+R0
+Ia@3<aG>9R4IFMz`0>[ONa3
+R1
+R2
+w1702987940
+8Y:/University/T5/CAD/CA2/S1.v
+FY:/University/T5/CAD/CA2/S1.v
+!i122 3
+Z6 L0 1 14
+R3
+r1
+!s85 0
+31
+!s108 1702987942.000000
+!s107 Y:/University/T5/CAD/CA2/S1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Y:/University/T5/CAD/CA2/S1.v|
+!i113 1
+R4
+R5
+n@s1
+vS2
+!s110 1702988118
+!i10b 1
+!s100 Mn1OXHCBE^YSPkY18co;Y3
+R0
+IJVkN1b;zQHD8P4[GOUWGD3
+R1
+R2
+w1702988116
+8Y:/University/T5/CAD/CA2/S2.v
+FY:/University/T5/CAD/CA2/S2.v
+!i122 4
+R6
+R3
+r1
+!s85 0
+31
+!s108 1702988118.000000
+!s107 Y:/University/T5/CAD/CA2/S2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|Y:/University/T5/CAD/CA2/S2.v|
+!i113 1
+R4
+R5
+n@s2

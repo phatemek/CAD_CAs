@@ -1,0 +1,9 @@
+module multTB();
+reg [31:0] x1 = 32'b0;
+reg [31:0] x2 = 32'b0;
+wire [31:0] out;
+multiplier UUT(x1, x2, out);
+initial begin
+#50 $stop;
+end
+endmodule

@@ -1,0 +1,9 @@
+module maxfinder(clk, start, x1, x2, x3, x4, eps, done, result);
+input clk, start;
+input [31:0] x1, x2, x3, x4;
+output done;
+output [31:0] result;
+wire wen, wenep, sel, zer;
+DataPath datapath(clk, 1'b0, x1, x2, x3, x4, eps, wen, wenep, sel, zer, result);
+controller con(clk, start, zer, wen, wenep, sel, done);
+endmodule
