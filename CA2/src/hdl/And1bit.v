@@ -1,0 +1,1 @@
+module And1bit(a, b, res);input a, b;output res;C2 myc2(1'b0, 1'b0, 1'b0, 1'b1, a, b, a, b, res);endmodule

@@ -1,0 +1,2 @@
+module reg5bit(a, en, clk, rst, out);input clk, rst, en;
+input [4:0] a;output [4:0] out;wire b4, b3, b2, b1, b0;S2 reg4(out[4], a[4], 1'b0, 1'b0, 1'b0, 1'b0, en, en, rst, clk, b4);S2 reg3(out[3], a[3], 1'b0, 1'b0, 1'b0, 1'b0, en, en, rst, clk, b3);S2 reg2(out[2], a[2], 1'b0, 1'b0, 1'b0, 1'b0, en, en, rst, clk, b2);S2 reg1(out[1], a[1], 1'b0, 1'b0, 1'b0, 1'b0, en, en, rst, clk, b1);S2 reg0(out[0], a[0], 1'b0, 1'b0, 1'b0, 1'b0, en, en, rst, clk, b0);assign out = {b4, b3, b2, b1, b0};endmodule
