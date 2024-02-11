@@ -1,0 +1,312 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dY:/Desktop/trunk/sim
+vadder
+!s10a 1701675977
+!s110 1701880879
+!i10b 1
+!s100 i932YRE:R`JU@<1YE^Jm=2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`fe4Zee1;OekLZLlD=dai0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1701675977
+8../src/hdl/adder.v
+F../src/hdl/adder.v
+!i122 0
+L0 1 6
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1701880878.000000
+!s107 ../src/hdl/adder.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/adder.v|
+!i113 1
+Z4 o+acc -source
+Z5 !s92 +acc -source +define+SIM
+Z6 tCvgOpt 0
+vbuffer16
+!s10a 1701881882
+!s110 1701883130
+!i10b 1
+!s100 4j7@2GEH@o96Pja2o^SZ]1
+R1
+Ib:H0=MR0WflaMdUjQ4RAm2
+R2
+R0
+w1701881882
+8../src/hdl/buff16.v
+F../src/hdl/buff16.v
+!i122 12
+Z7 L0 1 11
+R3
+r1
+!s85 0
+31
+!s108 1701883129.000000
+!s107 ../src/hdl/buff16.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/buff16.v|
+!i113 1
+R4
+R5
+R6
+vbuffer64
+!s10a 1701881829
+!s110 1701883131
+!i10b 1
+!s100 24Y3NbFWfcSAH;U62[<Rf1
+R1
+IBgzAek<Q42mzRB`@J9ime0
+R2
+R0
+w1701881829
+8../src/hdl/buffer64.v
+F../src/hdl/buffer64.v
+!i122 13
+L0 1 12
+R3
+r1
+!s85 0
+31
+!s108 1701883130.000000
+!s107 ../src/hdl/buffer64.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/buffer64.v|
+!i113 1
+R4
+R5
+R6
+vcntr13
+!s10a 1701861152
+Z8 !s110 1701880959
+!i10b 1
+!s100 `^]oR_;bjnBAH8QP?KAGM1
+R1
+Ih8nIbUZL;YjoPo]UBF_Fm3
+R2
+R0
+w1701861152
+8../src/hdl/cntr13.v
+F../src/hdl/cntr13.v
+!i122 4
+Z9 L0 1 10
+R3
+r1
+!s85 0
+31
+!s108 1701880958.000000
+!s107 ../src/hdl/cntr13.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/cntr13.v|
+!i113 1
+R4
+R5
+R6
+vcntr16
+!s10a 1701673647
+R8
+!i10b 1
+!s100 Wmzf@DeSM<Y4o:<97E7_i2
+R1
+IR>IWH_R7Dh`I=[^<;iD`A0
+R2
+R0
+w1701673647
+8../src/hdl/cntr16.v
+F../src/hdl/cntr16.v
+!i122 5
+R9
+R3
+r1
+!s85 0
+31
+!s108 1701880959.000000
+!s107 ../src/hdl/cntr16.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/cntr16.v|
+!i113 1
+R4
+R5
+R6
+vcntr4
+!s10a 1701853436
+!s110 1701880958
+!i10b 1
+!s100 ;YF?ef`8Q4mTG91;;M3`21
+R1
+I[4@9M[B[M:7IA:PLI8hMJ0
+R2
+R0
+w1701853436
+8../src/hdl/cntr4.v
+F../src/hdl/cntr4.v
+!i122 3
+R9
+R3
+r1
+!s85 0
+31
+!s108 1701880957.000000
+!s107 ../src/hdl/cntr4.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/cntr4.v|
+!i113 1
+R4
+R5
+R6
+vcontroller
+!s10a 1704527981
+!s110 1701880960
+!i10b 1
+!s100 NOAK3N;lVkOibGXFN37ko2
+R1
+I2;:FJG;;<UWZe=GDUVS0T2
+R2
+R0
+w1701872056
+8../src/hdl/controller.v
+F../src/hdl/controller.v
+!i122 6
+L0 13 43
+R3
+r1
+!s85 0
+31
+!s108 1701880960.000000
+!s107 ../src/hdl/controller.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/controller.v|
+!i113 1
+R4
+R5
+R6
+vdatapath
+!s10a 1701882848
+!s110 1701883135
+!i10b 1
+!s100 I2bd`zLJ?ePAmRH=LI<H13
+R1
+IZ5m@FaR6VOgjQ_`CPU:^h1
+R2
+R0
+w1701882848
+8../src/hdl/datapath.v
+F../src/hdl/datapath.v
+!i122 14
+L0 1 37
+R3
+r1
+!s85 0
+31
+!s108 1701883135.000000
+!s107 ../src/hdl/datapath.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/datapath.v|
+!i113 1
+R4
+R5
+R6
+vMAC
+!s10a 1701871494
+!s110 1701880962
+!i10b 1
+!s100 CCW]zME_g38zaSZJDakQ92
+R1
+I0XF]FXaC`9HYCFa9_hT=N3
+R2
+R0
+w1701871494
+8../src/hdl/MAC.v
+F../src/hdl/MAC.v
+!i122 8
+L0 1 21
+R3
+r1
+!s85 0
+31
+!s108 1701880962.000000
+!s107 ../src/hdl/MAC.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/MAC.v|
+!i113 1
+R4
+R5
+R6
+n@m@a@c
+vmemory
+!s10a 1701883758
+!s110 1701883772
+!i10b 1
+!s100 ZTYUaJXT>dNLQAakZYN8Z1
+R1
+IOWR2ng^nA6TT]ZO@;a^4O2
+R2
+R0
+w1701883758
+8../src/hdl/memory.v
+F../src/hdl/memory.v
+!i122 15
+L0 1 25
+R3
+r1
+!s85 0
+31
+!s108 1701883772.000000
+!s107 ../src/hdl/memory.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/memory.v|
+!i113 1
+R4
+R5
+R6
+vTB
+!s110 1704528606
+!i10b 1
+!s100 @V6Sd:FC7c8cWzZ836;Yi3
+R1
+I]Y7KO08:[fHbNc:oCeFn?1
+R2
+dC:/users/crossover/Desktop/My Mac Desktop/midterm/sim
+w1704528591
+8./tb/TB.v
+F./tb/TB.v
+!i122 20
+L0 1 16
+R3
+r1
+!s85 0
+31
+!s108 1704528605.000000
+!s107 ./tb/TB.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+incdir+../src/inc|+define+SIM|./tb/TB.v|
+!i113 1
+R4
+!s92 +acc -source +incdir+../src/inc +define+SIM
+R6
+n@t@b
+vtop
+!s10a 1701857003
+!s110 1701880964
+!i10b 1
+!s100 C[Td[mIEO8=LTVDR?h[UK3
+R1
+I7moH4kIbTEibJTaYBj8CI3
+R2
+R0
+w1701857003
+8../src/hdl/top.v
+F../src/hdl/top.v
+!i122 10
+R7
+R3
+r1
+!s85 0
+31
+!s108 1701880964.000000
+!s107 ../src/hdl/top.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/top.v|
+!i113 1
+R4
+R5
+R6
